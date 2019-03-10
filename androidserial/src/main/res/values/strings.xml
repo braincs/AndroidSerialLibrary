@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="aboutsercd">About sercd</string>
+    <string name="aboutserialportapi">About android-serialport-api</string>
+    <string name="about">About</string>
+    <string name="hardware">Hardware</string>
+    <string name="general">General</string>
+    <string name="network">Network</string>
+    <string name="netinterface">Interface</string>
+    <string name="portnumber">Port</string>
+    <string name="serialport">tty device</string>
+    <string name="activate">Enabled</string>
+    <string name="notif_ready">Waiting for a remote connection</string>
+    <string name="notif_connected">Remote idle</string>    
+    <string name="notif_opened">Remote connected to serial port</string>
+    <string name="notif_crash">Failed, check your parameters</string>
+    <string name="su_failed">Failed changing device permissions</string>
+
+    <string name="about_msg">
+Serial Port API sample v1.1\n
+\n
+This program is the sample application provided with project android-serialport-api.\n
+\n
+More information and bug report on [http://code.google.com/p/android-serialport-api]\n
+\n
+Copyright 2010-2011 Cedric Priscal\n
+\n
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at\n
+\n
+http://www.apache.org/licenses/LICENSE-2.0\n
+\n
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.\n
+	</string>
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial
+		port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown
+		reason.</string>
+</resources>
