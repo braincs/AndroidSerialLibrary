@@ -1,11 +1,11 @@
 ## Android UART 串口通信
 先上图
 
-![](images\android_send.png)
+![android_send](https://github.com/braincs/AndroidSerialLibrary/blob/master/images/android_send.png)
 
-![android_talk](images\android_talk.png)
+![android_talk](https://github.com/braincs/AndroidSerialLibrary/blob/master/images/android_talk.png)
 
-![pc-comm](images\pc-comm.png)
+![pc-comm](https://github.com/braincs/AndroidSerialLibrary/blob/master/images/pc-comm.png)
 
 由于[android-serialport-api](https://github.com/cepr/android-serialport-api)项目中的so使用较old的ndk编译，所以在对于Android 6.0 以上版本兼容的时候会报错`dlopen failed: "has text relocations"`。且使用的mk进行编译，特升级为用cmake编译。
 
