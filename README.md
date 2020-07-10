@@ -7,6 +7,8 @@
 
 ![pc-comm](https://github.com/braincs/AndroidSerialLibrary/blob/master/images/pc-comm.png)
 
+串口调试工具[下载链接:友善](http://www.alithon.com/downloads)
+
 由于[android-serialport-api](https://github.com/cepr/android-serialport-api)项目中的so使用较old的ndk编译，所以在对于Android 6.0 以上版本兼容的时候会报错`dlopen failed: "has text relocations"`。且使用的mk进行编译，特升级为用cmake编译。
 
 **`升级`**android-serialport-api
